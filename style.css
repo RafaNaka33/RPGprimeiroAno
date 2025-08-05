@@ -1,0 +1,54 @@
+.cabecalho{
+    border: 2px solid;
+    border-color: rgb(255, 0, 0);
+    display: flex;
+    padding: 10px;
+    background-color: #a09d9d;
+    justify-content: center;
+}
+body{
+    font-family: "Playwrite AU NSW", cursive;
+    color: white;
+    background-color: black;
+}
+.video{
+    justify-content: center;
+    margin: 20px 0;
+    display: flex;
+}
+
+.container1 {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.container2{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.lista-racas{
+    list-style-type: disc;
+    padding-left: 10px;
+    color: white;
+}
+.retangulo {
+  display: flex;
+  flex-direction: column;  /* Alinha o bloco e a legenda em coluna */
+  align-items: center;     /* Centraliza a legenda embaixo do retângulo */
+}
+
+.bloco {
+  width: 150px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc; /* só pra dar um contorno visível */
+}
+
+.legenda {
+  margin-top: 4px;
+  font-size: 12px;
+  text-align: center;
+}
